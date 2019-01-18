@@ -24,6 +24,7 @@
 
 # Course requirements and extra characteristics:
 
+
 ●      User Interface:
 
     ○      dApp runs on server (locally for testing/grading) and has an online deployed version **[DONE]**
@@ -34,15 +35,18 @@
       ■      Update reflected in UI  **[DONE]**
  
 ●      Solidity Tests:
+
     ○       11 tests for both deployed contracts  **[DONE]**
     ○       Why did I write those tests? Because I wanted to verify security issues in both the delegate and the proxy.  **[DONE]**
     ○  Tests run with *truffle develop > test*  **[DONE]**
  
 ●      Design Pattern Requirements:
+
     ○      Implement a circuit breaker (emergency stop) pattern  **[DONE]**
     ○      More info about used design patterns: Especified in *design_pattern_decisions.md*  **[DONE]**
 
 ●      Security Tools / Common Attacks:
+
     ○      These contracts are not susceptible to common attacks. More info in *avoiding_common_attacks.md*  **[DONE]**
 
  
