@@ -22,6 +22,39 @@
 [![How to use it](http://img.youtube.com/vi/p14buBTG1kY/0.jpg)](https://www.youtube.com/watch?v=p14buBTG1kY "How to use it")
 
 
+# Course requirements and extra characteristics:
+
+●      User Interface:
+
+    ○      dApp runs on server (locally for testing/grading) and has an online deployed version **[DONE]**
+    ○      There is an URL to interact with the dApp  **[DONE]**
+      ■      App recognizes current account  **[DONE]**
+      ■      Sign transactions using MetaMask **[DONE]**
+      ■      Contract state is updated  **[DONE]**
+      ■      Update reflected in UI  **[DONE]**
+ 
+●      Solidity Tests:
+    ○       11 tests for both deployed contracts  **[DONE]**
+    ○       Why did I write those tests? Because I wanted to verify security issues in both the delegate and the proxy.  **[DONE]**
+    ○  Tests run with *truffle develop > test*  **[DONE]**
+ 
+●      Design Pattern Requirements:
+    ○      Implement a circuit breaker (emergency stop) pattern  **[DONE]**
+    ○      More info about used design patterns: Especified in *design_pattern_decisions.md*  **[DONE]**
+
+●      Security Tools / Common Attacks:
+    ○      These contracts are not susceptible to common attacks. More info in *avoiding_common_attacks.md*  **[DONE]**
+
+ 
+●      Use a library or extend a contract: **I decided to extend my deployed contracts** with inheritance (and several layers of aux contracts). I also decided to deploy a delegate and a proxy. This way I avoided the use of specific libraries deployed in one specific network. So this dApp is network-neutral and all the required code is written by myself.  *design_pattern_decisions.md*  **[DONE]**
+
+  
+●      Deploy your application onto one of the test networks. Include a document called deployed_addresses.txt that describes where your contracts live (which testnet and address).  **[DONE]**
+
+●      Stretch requirements (for bonus points, not required):
+
+    ○      Implement an upgradable design pattern  **[DONE]**
+
 
 # How to use a currently deployed instance
 
