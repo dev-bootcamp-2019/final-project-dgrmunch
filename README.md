@@ -52,7 +52,7 @@
 
 ##   Use a library or extend a contract
 
-* **I decided to extend my deployed contracts** with inheritance (and several layers of aux contracts). I also decided to deploy a delegate and a proxy. This way I avoided the use of specific libraries deployed in one specific network. So this dApp is network-neutral and all the required code is written by myself.  *design_pattern_decisions.md*  **[DONE]**
+* **I decided to extend my deployed contracts** with inheritance (and several layers of aux contracts). Additionally, I also decided to deploy a delegate and a proxy. This way I avoided the use of specific libraries deployed in one specific network. So this dApp is network-neutral and all the required code is written by myself. **[DONE]**
 
   
 ##  Other requirements
